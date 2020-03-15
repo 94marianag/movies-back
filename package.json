@@ -1,0 +1,20 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "my project de back-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon ./app/index.js"
+  },
+  "author": "Mariana",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "firebase": "^7.9.3",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
